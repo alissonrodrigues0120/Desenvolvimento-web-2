@@ -1,0 +1,61 @@
+# ==========================================
+# Dependências e Pacotes
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json # Opcional: alguns preferem versionar, mas em projetos simples pode ser ignorado
+
+# ==========================================
+# Variáveis de Ambiente (CRÍTICO!)
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ==========================================
+# Arquivos de Build do TypeScript
+# ==========================================
+dist/
+build/
+*.tsbuildinfo
+
+# ==========================================
+# Logs e Arquivos Temporários
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Editores de Código e IDEs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Sistemas Operacionais
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Testes e Cobertura (se for implementar no futuro)
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# Docker (Opcional, mas útil se criar volumes locais)
+# ==========================================
+.docker-data/
